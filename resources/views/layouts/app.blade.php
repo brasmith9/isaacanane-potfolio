@@ -40,8 +40,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
   <link rel="manifest" href="img/favicon/site.webmanifest" />
-  <link rel="stylesheet" href="{{asset('css/styles.css')}}" />
-  <script src="{{asset('js/scripts.js')}}"></script>
+  <link rel="stylesheet" href="{{secure_asset('css/styles.css')}}" />
+  <script src="{{secure_asset('js/scripts.js')}}"></script>
   <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
   <!-- <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script> -->
   @livewireStyles
@@ -197,7 +197,7 @@
   @livewireScripts
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
   </script>
-  <script src="{{ asset('js/email.js') }}"></script>
+  <script src="{{ secure_asset('js/email.js') }}"></script>
   <script>
     const navbar = document.querySelector('.navbar');
 
@@ -216,7 +216,7 @@
       })
     })
   </script>
-  <script src="{{ asset('js/hero.js') }}"></script>
+  <script src="{{ secure_asset('js/hero.js') }}"></script>
 </body>
 
 </html>
