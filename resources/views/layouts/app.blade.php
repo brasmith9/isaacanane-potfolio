@@ -11,19 +11,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="title" content="Isaac Anane Amankwaah—Fullstack developer">
   <meta name="keywords"
-    content="Isaac, Anane, Amankwaah Isaac, Isaac Anane Amankwaah, Adam Smith, Supar Nana, Developer, Smith's projects, Web Developer, Enyata, Perigee Insights">
+    content="Isaac, Anane, Amankwaah Isaac, Isaac Anane Amankwaah, Adam Smith, Supar Nana, Developer, Smith's projects, Web Developer, Enyata, Perigee Insights, University of Cape Coast, Javascript Developer, Python Developer">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   <meta name="author" content="Isaac Anane Amankwaah">
   <meta name="description"
-    content="Hi, I'm Isaac Anane Amankwaah. A Fullstack Developer. I design and build web applications that provide an enjoyable experience.">
+    content="Hi, I'm Isaac Anane Amankwaah. A Fullstack Developer. I design and build web applications that provide an enjoyable experience. Graphics and UI/UX Designer, Data Analyst, and currently a Senior Backend Engineer at Enyata Software Engineering Ltd, Accra-Ghana, with over {{ date('Y') - 2015 }} years of experience working with institutions and individuals.I have also graduated with a bachelor's degree in Actuarial Science from the University of Cape Coast, Ghana. What you are waiting for.... a good team player, and I have a good sense of humor.">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="{{env('APP_URL')}}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Isaac Anane Amankwaah—Fullstack developer">
   <meta property="og:description"
-    content="Hi, I'm Isaac Anane Amankwaah. A Fullstack developer. I design and build web applications that provide an enjoyable experience.">
+    content="Hi, I'm Isaac Anane Amankwaah. A Fullstack Developer. I design and build web applications that provide an enjoyable experience. Graphics and UI/UX Designer, Data Analyst, and currently a Senior Backend Engineer at Enyata Software Engineering Ltd, Accra-Ghana, with over {{ date('Y') - 2015 }} years of experience working with institutions and individuals.I have also graduated with a bachelor's degree in Actuarial Science from the University of Cape Coast, Ghana. What you are waiting for.... a good team player, and I have a good sense of humor.">
   <meta property="og:image" content="{{env('APP_URL')}}img/home-image.png">
 
   <!-- Twitter Meta Tags -->
@@ -32,7 +32,7 @@
   <meta property="twitter:url" content="{{env('APP_URL')}}">
   <meta name="twitter:title" content="Isaac Anane Amankwaah—Fullstack developer">
   <meta name="twitter:description"
-    content="Hi, I'm Isaac Anane Amankwaah. A Fullstack developer. I design and build web applications that provide an enjoyable experience.">
+    content="Hi, I'm Isaac Anane Amankwaah. A Fullstack Developer. I design and build web applications that provide an enjoyable experience. Graphics and UI/UX Designer, Data Analyst, and currently a Senior Backend Engineer at Enyata Software Engineering Ltd, Accra-Ghana, with over {{ date('Y') - 2015 }} years of experience working with institutions and individuals.I have also graduated with a bachelor's degree in Actuarial Science from the University of Cape Coast, Ghana. What you are waiting for.... a good team player, and I have a good sense of humor.">
   <meta name="twitter:image" content="{{env('APP_URL')}}img/home-image.png">
 
   <link rel="canonical" href="{{env('APP_URL')}}">
@@ -127,7 +127,7 @@
   </section>
   <footer>
     <div class="mycontainer bar">
-      <div class="copyright">&copy; 2022, Isaac Anane Amankwaah. All rights reserved.</div>
+      <div class="copyright">&copy; {{ date('Y') }}, Isaac Anane Amankwaah. All rights reserved.</div>
       <div class="social">
         <a href="https://www.instagram.com/creativebrainx/" class="social__link" target="_blank" rel="noreferrer"
           title="Instagram">
